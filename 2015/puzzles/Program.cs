@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿PuzzleOne puzzleOne = new PuzzleOne();
+int result = puzzleOne.getDate("input.txt");
+Console.WriteLine(result);
