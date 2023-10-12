@@ -7,6 +7,7 @@ public class PuzzleOne
 
         StreamReader streamReader = new StreamReader(filepath);
         string data = streamReader.ReadToEnd();
+        streamReader.Close();
 
         for (int i = 0; i < data.Length; i++)
         {
